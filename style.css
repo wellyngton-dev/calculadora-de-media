@@ -1,0 +1,139 @@
+body {
+    background: #134e5e;
+    background: -webkit-linear-gradient(
+      to right,
+      #87182d,
+      #134e5e
+    );
+    background: linear-gradient(
+      to right,
+      #87182d,
+      #134e5e
+    );
+  
+    font-family: "Roboto Mono", monospace;
+    min-height: 400px;
+  }
+  
+  .container {
+    color: white;
+    text-align: center;
+    padding: 20px;
+    height: 100vh;
+    cursor: url(https://ani.cursors-4u.net/others/oth-9/oth839.cur), auto !important;
+  }
+  
+  .page-title {
+    color: #ffffff;
+    margin: 0 0 5px;
+  }
+  
+  .page-subtitle {
+    color: #ffffff;
+    margin-top: 5px;
+  }
+  
+  .page-logo {
+    width: 200px;
+  }
+  
+  .alura-logo {
+    position: fixed;
+    width: 40px;
+    top: 5px;
+    right: 10px;
+  }
+  
+  
+  .button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    border-radius: 5px;
+    margin-top: 15px;
+   
+  }
+  
+  .button:hover {
+    background-color: #4CAF20;
+      transform:scale(1.1,1.1);
+  }
+  
+  .resultado {
+    text-align: center;
+    margin: 200px;
+  }
+  
+  .aprovado {
+    display: inline-block;
+    margin-top: 10px;
+    width: 300px;
+    margin-top: 10px;
+    text-align: center;
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+   }
+  
+  .formulario{
+    margin-top: 40px;
+    display: relative;
+  }
+  
+  
+  .form {
+    top: 10px;
+    width: 140px;
+    height: 25px;
+    border-radius: 5px;
+    margin-top: 10px;
+    background-clip: padding-box;
+  padding: 2px;
+    line-height: 10px;  
+  } 
+  
+  .form-header {
+    text-align: center;
+    width: 300px;
+    padding: 10px;
+    line-height: 10px;
+    border-radius: 5px;
+  } 
+  
+  .reprovado {
+    display: inline-block;
+    margin-top: 10px;
+    width: 300px;
+    margin-top: 10px;
+    text-align: center;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    }
+  
+  .form-select {
+    cursor: url(https://ani.cursors-4u.net/others/oth-9/oth839.cur), auto !important;
+  }
+  
+  .limpar{
+    background-color: #1565C0;
+  }
+  
+  .limpar:hover{
+    background-color: blue;
+  }
+  
+  .footer {
+    position: relative;
+    text-align: center;
+    top: 70px;
+    }
+
+    a{
+        color: white;
+    }

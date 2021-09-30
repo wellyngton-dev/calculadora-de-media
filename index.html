@@ -1,0 +1,107 @@
+<html>
+
+<head>
+    <title> Imersão Dev Alura - Aula 01</title>
+</head>
+<link href="style.css" rel="stylesheet">
+
+<body>
+    <div class="container">
+        <h1 class="page-title">
+            Calculadora de média</h1>
+        <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg"
+            class="page-logo" alt="">
+
+        <div class="formulario">
+            <p class="page-subtitle">
+                Selecione suas notas, e descubra se foi aprovado!
+            </p>
+            <div>
+                <input id="nome" placeholder="Insira seu nome" class="form-header" required>
+            </div>
+            <div>
+                Selecione a nota do 1º Bimestre
+                <select id="primeiraNota" class="form">
+                    <option value="0" selected required>Selecione...
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </select>
+            </div>
+            <div>
+                Selecione a nota do 2º Bimestre
+                <select id="segundaNota" class="form">
+                    <option value="0" selected required>Selecione...
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </select>
+            </div>
+            <div>
+                Selecione a nota do 3º Bimestre
+                <select id="terceiraNota" class="form">
+                    <option value="0" selected required>Selecione...
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </select>
+            </div>
+            <div>
+                Selecione a nota do 4º Bimestre
+                <select id="quartaNota" class="form">
+                    <option value="0" selected required>Selecione...
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </select>
+            </div>
+
+            <div class="form-check-inline">
+                <button class="button" id="calcular" onClick="calcular()">Calcular</button>
+
+                <button class="button limpar" id="limpar" onClick="limpar()">Limpar</button>
+            </div>
+            <div id="resultado"></div>
+        </div>
+        <a href="https://alura.com.br/" target="_blank">
+            <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+        </a>
+
+        <footer>
+            <div class="footer">
+                Design by <a href="https://github.com/wellyngton-dev" target="_blank">Wellyngton Carvalho</a>
+            </div>
+        </footer>
+        <script type="text/javascript" src="script.js"></script>
+
+</body>
+
+</html>
